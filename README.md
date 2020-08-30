@@ -1,6 +1,6 @@
 # Sudoku_laburd
 Solving sudoku implementing a simple version of DFS.
-Sudoku's are assumed to have one and one only solution. It consists of four main functions:
+Sudokus are assumed to have one and one only solution. It consists of four main functions:
 - choose_square: choose which square to fill.
 - evaluate_options: check the availavble options for that square.
 - complete_square: fill the square with an available option, if any.
