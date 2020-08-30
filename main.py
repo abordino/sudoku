@@ -22,5 +22,5 @@ if __name__ == '__main__':
               [0, 0, 0, 0, 0, 9, 7, 0, 0]]
 
     my_sudoku = [[matrix, [], []]]
-    solution = solve(my_sudoku)
-    print("The solution is: \n", solution)
+    solution, moves = solve(my_sudoku)
+    print(" \t The solution is: \n", solution, "\n \t It required", moves, "moves.")

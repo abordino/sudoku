@@ -175,7 +175,9 @@ def solve(sudoku):
     Args:
       sudoku (Sudoku): sudoku to be solved
     """
+    iteration = 0
     while 0 in np.array(sudoku[-1][0]):
+        iteration += 1
         coord = choose_square(sudoku)
         options = evaluate_options(sudoku, coord)
         if len(options) == 0:
@@ -183,4 +185,4 @@ def solve(sudoku):
         else:
             complete_square(sudoku, coord, options)
     solution = np.array(sudoku[-1][0])
-    return solution
+    return solution, iteration
