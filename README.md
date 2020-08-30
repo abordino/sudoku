@@ -8,4 +8,6 @@ Sudoku's are assumed to have one and one only solution. It consists of four main
 
 The most difficult (???) solved in 10 seconds: https://www.focus.it/tecnologia/digital-life/ecco-il-sudoku-piu-difficile-del-mondo-123-6132-81
 
+It required 10969 iterations.
+
 ![](https://www.focus.it/site_stored/imgs/0001/011/sudokuinkala.630x360.jpg)
