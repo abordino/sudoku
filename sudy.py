@@ -1,6 +1,6 @@
 import numpy as np
 
-""" A sudoku is simply a list. Each element of the list is a list which contains four elements:
+""" A sudoku is simply a list. Each element of the list is a list which contains three elements:
 - a sudoku (list): the evolution of the sudoku to solve in time
 - a list of two int (list(int)): the coordinates of the square chosen to be filled
 - a list of integer list(int): the options available for those coordinates.
