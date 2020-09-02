@@ -186,3 +186,21 @@ def solve(sudoku):
             complete_square(sudoku, coord, options)
     solution = np.array(sudoku[-1][0])
     return solution, iteration
+
+
+# Test on a random sudoku.
+if __name__ == '__main__':
+
+    matrix = [[0, 0, 5, 3, 0, 0, 0, 0, 0],
+              [8, 0, 0, 0, 0, 0, 0, 2, 0],
+              [0, 7, 0, 0, 1, 0, 5, 0, 0],
+              [4, 0, 0, 0, 0, 5, 3, 0, 0],
+              [0, 1, 0, 0, 7, 0, 0, 0, 6],
+              [0, 0, 3, 2, 0, 0, 0, 8, 0],
+              [0, 6, 0, 5, 0, 0, 0, 0, 9],
+              [0, 0, 4, 0, 0, 0, 0, 3, 0],
+              [0, 0, 0, 0, 0, 9, 7, 0, 0]]
+
+    my_sudoku = [[matrix, [], []]]
+    solution, moves = solve(my_sudoku)
+    print(" \t The solution is: \n", solution, "\n \t It required", moves, "moves.")
