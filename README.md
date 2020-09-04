@@ -1,5 +1,5 @@
 # Sudoku_laburd
-Solving sudoku implementing a simple version of DFS.
+Solving sudoku implementing a simple version of DFS, WITHOUT recursion. (solution with recursion at: https://github.com/abordino/sudoku_recursion).
 Sudokus are assumed to have one and one only solution. It consists of four main functions:
 - choose_square: choose which square to fill.
 - evaluate_options: check the availavble options for that square.
